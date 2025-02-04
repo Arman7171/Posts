@@ -1,4 +1,5 @@
-import React, { Navigate, Route, Routes } from "react-router-dom";
+import React from "react";
+import { Navigate, Route, Routes } from "react-router-dom";
 import Login from "./pages/Posts";
 import NotFound from "./pages/NotFound";
 

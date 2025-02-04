@@ -1,10 +1,10 @@
 import React from "react";
+import { SearchPostProvider } from "./context/searchContext";
 import { BrowserRouter } from "react-router-dom";
 import Router from "./router";
 import Header from "@/components/Header/Header";
-import "./App.css";
-import { SearchPostProvider } from "./context/searchContext";
 import MobileMenu from "./components/MobileMenu/MobileMenu";
+import "./App.css";
 
 function App() {
   return (
