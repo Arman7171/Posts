@@ -13,7 +13,7 @@ interface PropsType {
 const BurgerMenu: React.FC<PropsType> = ({ isOpen, setIsOpen }) => {
   return (
     <div className={`${isOpen ? "open" : ""} burger-container`}>
-      <div className={`menu-bg`}></div>
+      <div className={`menu-bg`} onClick={() => setIsOpen(false)}></div>
       <div className="menu-content">
         <div className="menu-header">
           <ReactSVG src={Logotype} />
